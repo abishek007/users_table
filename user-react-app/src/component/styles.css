@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.address-container {
+  display: flex;
+}
+
+.address-item {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.page-link {
+  color: #000;
+  background: #fff;
+  border: 1px solid #ddd;
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.prev-button {
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  color: #000;
+}
+
+.next-button {
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  color: #000;
+}
+
+.selected-page {
+  color: #ff8500;
+}
+
+.radio-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 13px;
+  font-size: 17px;
+}
+
+.radio-text {
+  padding: 0 10px;
+}
+
+.selected-user-table {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.data-bold {
+  font-weight: bold;
+}
+
+.user-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.drop-down-wrapper {
+  margin-left: 13px;
+}
+
+input, select {
+  cursor: pointer;
+}
+
+.address-sec {
+  width: 15%;
+}
+
+.company-sec {
+  width: 22%;
+}
+
+.open-btn, .delete-btn {
+  min-width: 70px;
+  margin-bottom: 6px;
+  border: 0px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.open-btn {
+  background-color: #25c16f;
+}
+
+.delete-btn {
+  background-color: #d93025;
+}
+
+.button-sec {
+  width: 7%;
+}
+
+.main-heading {
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
